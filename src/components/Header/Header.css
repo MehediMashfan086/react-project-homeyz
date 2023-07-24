@@ -1,5 +1,12 @@
-.h-wrapper {
-    color: white;
+.navbar {
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    background: transparent;
+}
+
+.navbar.active {
+    background: rgb(48, 46, 46);
 }
 
 .h-container {
