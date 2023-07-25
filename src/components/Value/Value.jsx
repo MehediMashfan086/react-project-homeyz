@@ -15,7 +15,7 @@ import data from "../../utils/accordion";
 const Value = () => {
     const [className, setClassName] = useState(null);
   return (
-    <section className="v-wrapper">
+    <section id="our-value" className="v-wrapper">
         <div className="paddings innerWidth flexCenter v-container">
             {/* Left Side */}
             <div className="v-left">
